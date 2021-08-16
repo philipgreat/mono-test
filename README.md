@@ -1,1 +1,8 @@
-# mono-test
+# 编译
+
+mcs hello.cs 
+
+mono hello.exe
+
+
+
