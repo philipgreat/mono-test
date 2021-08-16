@@ -7,6 +7,17 @@
         string pwd = "fb50e067b95e46ec81b6e46fc80dd187";//第三方登陆密码*/
 
 using System;
+using Kingdee.BOS.WebApi.Client;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Windows.Forms;
+using System.Data;
+using System.Collections.Generic;
+using System.Security.Cryptography;
+using System.Text;
+using System.Web.Http;
+using System.Net;
+using System.IO;
 
 public class HelloWorld
 {
@@ -28,7 +39,7 @@ public class HelloWorld
 
         Console.WriteLine ("Hello Mono World");
     }
-     public bool Save()
+     public static bool Save()
         {
             bool bRet = false;
             try
