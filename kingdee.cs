@@ -35,7 +35,7 @@ public class HelloWorld
     public static void Main(string[] args)
     {
 
-        Save()
+        Save();
 
         Console.WriteLine ("Hello Mono World");
     }
@@ -160,7 +160,7 @@ public class HelloWorld
                     //可以用界面的文本框直接输入json测试而已，demo不需要这截
                    
                     //调用api单据保存操作
-                    var vchinfo = client.Save(""", svchJson);
+                    var vchinfo = client.Save("", svchJson);
                     Console.WriteLine ( Convert.ToString(vchinfo));
                 }
             }
