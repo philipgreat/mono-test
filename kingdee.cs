@@ -9,7 +9,6 @@
 using System;
 using Kingdee.BOS.WebApi.Client;
 using Newtonsoft.Json.Linq;
-using System;
 using System.Windows.Forms;
 using System.Data;
 using System.Collections.Generic;
